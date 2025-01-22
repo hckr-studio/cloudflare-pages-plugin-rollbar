@@ -16,7 +16,7 @@ npm install @hckr_/cloudflare-pages-plugin-rollbar
 
 ```javascript
 // functions/_middleware.js
-import rollbarPlugin from "@cloudflare/pages-plugin-rollbar";
+import rollbarPlugin from "@hckr_/cloudflare-pages-plugin-rollbar";
 
 /**
  * @param {EventContext<Env>} context
@@ -37,14 +37,14 @@ It gathers `request` data and Cloudflare metadata with exception details.
 
 You can access Rollbar logger instance via the `context.data.rollbar` property. 
 There are `debug`, `info`, `warn` and `error` methods for corresponding levels.
-First three take `message` and `...attributes` as parameters. `error` takes
+First three take `message` and `attributes` as parameters. `error` takes
 `exception` and `descrition`.
 
 ```typescript
 interface Rollbar {
-    debug(message: string, ...attributes): Promise;
-    info(message: string, ...attributes): Promise;
-    warn(message: string, ...attributes): Promise;
+    debug(message: string, attributes: Record<string, any>): Promise;
+    info(message: string, attributes: Record<string, any>): Promise;
+    warn(message: string, attributes: Record<string, any>): Promise;
     error(exception: Error, description: string): Promise;
 }
 ```

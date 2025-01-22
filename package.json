@@ -1,7 +1,7 @@
 {
   "name": "@hckr_/cloudflare-pages-plugin-rollbar",
   "description": "Rollbar integration plugin for Cloudflare Pages",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "license": "EUPL-1.2",
   "main": "dist/index.js",
   "types": "index.d.ts",
@@ -16,7 +16,7 @@
     "error-stack-parser": "2.1.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "1.9.4",
     "@cloudflare/workers-types": "4.20250109.0",
     "wrangler": "3.103.2"
   },
