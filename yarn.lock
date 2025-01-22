@@ -5,7 +5,7 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@biomejs/biome@npm:^1.9.4":
+"@biomejs/biome@npm:1.9.4":
   version: 1.9.4
   resolution: "@biomejs/biome@npm:1.9.4"
   dependencies:
@@ -342,7 +342,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr_/cloudflare-pages-plugin-rollbar@workspace:."
   dependencies:
-    "@biomejs/biome": "npm:^1.9.4"
+    "@biomejs/biome": "npm:1.9.4"
     "@cloudflare/workers-types": "npm:4.20250109.0"
     error-stack-parser: "npm:2.1.4"
     wrangler: "npm:3.103.2"
