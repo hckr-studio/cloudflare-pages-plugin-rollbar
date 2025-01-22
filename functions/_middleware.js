@@ -6,7 +6,13 @@ import { Rollbar } from "../lib/rollbar.js";
  */
 export async function onRequest(context) {
   const { pluginArgs, ...ctx } = context;
-  context.data.rollbar = new Rollbar({ context: ctx, ...pluginArgs });
+  const { CF_PAGES, CF_PAGES_COMMIT_SHA } = context.env;
+  const env = {
+    environment: CF_PAGES == 1 ? "production" : "development",
+    code_version: CF_PAGES_COMMIT_SHA,
+    framework: "Cloudflare Pages",
+  }
+  context.data.rollbar = new Rollbar({ context: ctx, env, ...pluginArgs });
 
   try {
     return await context.next();
