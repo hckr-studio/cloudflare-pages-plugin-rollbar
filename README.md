@@ -1,5 +1,7 @@
 # cloudflare-pages-plugin-rollbar
 [![NPM Version](https://img.shields.io/npm/v/@hckr_/cloudflare-pages-plugin-rollbar)](https://www.npmjs.com/package/@hckr_/cloudflare-pages-plugin-rollbar)
+[![GitHub License](https://img.shields.io/github/license/hckr-studio/cloudflare-pages-plugin-rollbar)](https://eupl.eu/1.2/en/)
+
 
 Rollbar integration plugin for Cloudflare Pages
 
