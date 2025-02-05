@@ -2,6 +2,7 @@
   "name": "@hckr_/cloudflare-pages-plugin-rollbar",
   "description": "Rollbar integration plugin for Cloudflare Pages",
   "version": "1.1.4",
+  "author": "Aleš Roubíček <ales.roubicek@hckr.studio>",
   "license": "EUPL-1.2",
   "main": "dist/index.js",
   "types": "index.d.ts",
