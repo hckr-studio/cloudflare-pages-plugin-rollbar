@@ -17,7 +17,7 @@
     "error-stack-parser": "2.1.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.9",
+    "@biomejs/biome": "2.4.10",
     "@cloudflare/workers-types": "4.20260329.1",
     "wrangler": "4.78.0"
   },
