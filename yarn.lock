@@ -151,10 +151,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20260414.1":
-  version: 4.20260414.1
-  resolution: "@cloudflare/workers-types@npm:4.20260414.1"
-  checksum: 10c0/286e64cdfe106c2b3d81c67a794403f696ff10485b93f0461b61a48c4ebc6535a4bc3139f6d22fd01630b077d5417e8bdf7a0be487a046987c1c27d136d04262
+"@cloudflare/workers-types@npm:4.20260415.1":
+  version: 4.20260415.1
+  resolution: "@cloudflare/workers-types@npm:4.20260415.1"
+  checksum: 10c0/4fe02b65d48c515b82d22fdee316977127d01e77a90a84b3fe941796f8edca894ec027f43ac3f53fe3418bfce38af39efec6cc9fe46af8671de65e00abf5e814
   languageName: node
   linkType: hard
 
@@ -363,7 +363,7 @@ __metadata:
   resolution: "@hckr_/cloudflare-pages-plugin-rollbar@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.4.12"
-    "@cloudflare/workers-types": "npm:4.20260414.1"
+    "@cloudflare/workers-types": "npm:4.20260415.1"
     error-stack-parser: "npm:2.1.4"
     wrangler: "npm:4.82.2"
   languageName: unknown
