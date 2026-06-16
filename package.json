@@ -19,7 +19,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
     "@cloudflare/workers-types": "4.20260616.1",
-    "wrangler": "4.100.0"
+    "wrangler": "4.101.0"
   },
   "scripts": {
     "build": "wrangler pages functions build --plugin --outdir=dist",
