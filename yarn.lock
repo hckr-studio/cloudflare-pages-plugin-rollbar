@@ -365,7 +365,7 @@ __metadata:
     "@biomejs/biome": "npm:2.5.14"
     "@cloudflare/workers-types": "npm:5.20260922.1"
     error-stack-parser: "npm:2.1.4"
-    wrangler: "npm:4.136.1"
+    wrangler: "npm:4.136.3"
   languageName: unknown
   linkType: soft
 
@@ -1795,9 +1795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:4.136.1":
-  version: 4.136.1
-  resolution: "wrangler@npm:4.136.1"
+"wrangler@npm:4.136.3":
+  version: 4.136.3
+  resolution: "wrangler@npm:4.136.3"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.5.0"
     "@cloudflare/unenv-preset": "npm:2.16.2"
@@ -1820,7 +1820,7 @@ __metadata:
     cf-wrangler: bin/cf-wrangler.js
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/ab8af3d15d9c3b498d4e3add0c4d578ca30210986cffdd995515fee4befed58af01db865564d216953820f4722d76085440c5725bbd33d802cea6f1e8974542c
+  checksum: 10c0/6168114d9c08a26cdff8b46bf58c2ff7e40c28067186cf62bbad4bfec6e890b7a1e4f8def862494501b98e0335ea4fefb2c5cdc6e8415ca36d063565ce4f25bc
   languageName: node
   linkType: hard
 
