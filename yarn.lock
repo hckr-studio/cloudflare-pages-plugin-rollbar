@@ -385,7 +385,7 @@ __metadata:
     "@biomejs/biome": "npm:2.6.3"
     "@cloudflare/workers-types": "npm:5.20261028.1"
     error-stack-parser: "npm:2.1.4"
-    wrangler: "npm:4.154.0"
+    wrangler: "npm:4.155.0"
   languageName: unknown
   linkType: soft
 
@@ -1242,9 +1242,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:5.20261023.1-beta":
-  version: 5.20261023.1-beta
-  resolution: "miniflare@npm:5.20261023.1-beta"
+"miniflare@npm:5.20261023.2-beta":
+  version: 5.20261023.2-beta
+  resolution: "miniflare@npm:5.20261023.2-beta"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     sharp: "npm:0.35.5"
@@ -1252,7 +1252,7 @@ __metadata:
     workerd: "npm:1.20261023.1"
     ws: "npm:8.21.0"
     youch: "npm:4.1.0-beta.10"
-  checksum: 10c0/bd18184c6815e4a823c4328516ffd6adff100a129bbbf692cf786d8d20d51c62430b4d6e9676e8eb23c131dfa7a4f7d6f124113a925423c743abd6a708279fac
+  checksum: 10c0/388acfd586fe1bd1c6b58b355685959f3ed95c033ad28735cc90d53baf3d8e41510d26529b4491a9c36aafb1962ed00c3b153d9b0ea1a6ba5ef5f381990b9b34
   languageName: node
   linkType: hard
 
@@ -1815,16 +1815,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:4.154.0":
-  version: 4.154.0
-  resolution: "wrangler@npm:4.154.0"
+"wrangler@npm:4.155.0":
+  version: 4.155.0
+  resolution: "wrangler@npm:4.155.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.5.0"
     "@cloudflare/unenv-preset": "npm:2.16.2"
     blake3-wasm: "npm:2.1.5"
     esbuild: "npm:0.28.2"
     fsevents: "npm:2.3.3"
-    miniflare: "npm:5.20261023.1-beta"
+    miniflare: "npm:5.20261023.2-beta"
     path-to-regexp: "npm:6.3.0"
     unenv: "npm:2.0.0-rc.24"
     workerd: "npm:1.20261023.1"
@@ -1840,7 +1840,7 @@ __metadata:
     cf-wrangler: bin/cf-wrangler.js
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10c0/fac5cf5dae7dc3aa47df35802b1cc5b8671bd5d497617b36f9d6809726a2b3589412cd64586a70a811f32c9aa6c9cf84972623573db6d5deb4543d39fb9c397f
+  checksum: 10c0/17b5d7abb2844562e34cc2fee5fa4797ad4aea82c2989bef7c79f589ac07c0c6757f0bf7d688504c2077f3728224e4d7c0f1611e41a1eb29330d986f42a6f922
   languageName: node
   linkType: hard
 
